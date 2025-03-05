@@ -38,7 +38,7 @@ with socketserver.TCPServer(("", PORT), MyHandler) as httpd:
     print(f"Serving at port {PORT}")
     httpd.serve_forever()
 ```
-# OUTPUT:
-![alt text](<Screenshot 2025-03-05 104039.png>)
+# OUTPUT
+![alt text](<Screenshot (8).png>)
 # RESULT:
 The program for implementing simple webserver is executed successfully.
